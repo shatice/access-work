@@ -108,7 +108,7 @@ footer {
   padding: 20px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 750px) {
   ul li {
     display: inline-block;
     width: 30%;
@@ -138,10 +138,12 @@ footer {
   main section img,
   .button img {
     opacity: 0.7;
+    transition: all 0.5s;
   }
 
   main section img:hover,
   .button img:hover {
     opacity: 1;
+    transform: scale(1.2);
   }
 }

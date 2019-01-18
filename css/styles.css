@@ -111,7 +111,7 @@ footer {
 @media (min-width: 750px) {
   ul li {
     display: inline-block;
-    width: 30%;
+    width: 25%;
     opacity: 0.5;
     transition: all 0.5s;
   }
@@ -133,6 +133,26 @@ footer {
   .button:nth-of-type(3):hover {
     color: white;
     background: #417505;
+  }
+
+  .line {
+    width: 75%;
+  }
+
+  main section {
+    position: relative;
+    width: 75%;
+    margin: 0 auto 30px auto;
+  }
+
+  main section img:nth-child(1) {
+    position: absolute;
+    right: 40px;
+  }
+
+  main section img:nth-child(2) {
+    position: absolute;
+    right: 10px;
   }
 
   main section img,

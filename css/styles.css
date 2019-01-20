@@ -40,7 +40,7 @@ article {
   padding: 20px 0 40px 0;
 }
 
-/* BUTTON keep reading */
+/* KEEP READING */
 
 .more { 
   margin: 20px auto;
@@ -56,6 +56,7 @@ article {
 main section img{
   width: 23px;
   height: 21px;
+  padding: 10px;
 }
 
 /* BUTTON read all articles */
@@ -129,6 +130,7 @@ footer {
 
   main section img {
     position: absolute;
+    padding: 0;
     right: 0;
   }
 

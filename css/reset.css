@@ -14,7 +14,8 @@ article, footer, header, section {
 body {
   line-height: 1;
   color: #4A4A4A;
-  text-align: center;
+	text-align: center;
+	font-family: 'Lato-Light'
 }
 
 h1 {

@@ -71,7 +71,7 @@ main section img{
 
 .line {
   background: #4A4A4A;
-  width: 60%;
+  width: 75%;
   height: 1px;
   margin: 20px auto 20px auto;
 }
@@ -89,9 +89,18 @@ footer {
   padding-bottom: 20px;
 }
 
+
 /* RESPONSIVE */
 
 @media (min-width: 750px) {
+  /* MAIN */
+
+  main p {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  /* PHOTOS */
 
   main ul {
     width: 75%;
@@ -109,24 +118,7 @@ footer {
     opacity: 1;
   }
 
-  main p {
-    width: 40%;
-    margin: 0 auto;
-  }
-
-  .button:nth-of-type(3) {
-    width: 20%;
-    transition: all 0.5s;
-  }
-
-  .button:nth-of-type(3):hover {
-    color: white;
-    background: #417505;
-  }
-
-  .line {
-    width: 75%;
-  }
+  /* PICTOS like & comment */
 
   main section {
     position: relative;
@@ -134,15 +126,16 @@ footer {
     margin: 0 auto 30px auto;
   }
 
-  main section img:nth-child(1) {
-    position: absolute;
-    right: 40px;
-  }
-
-  main section img:nth-child(2) {
+  main section img {
     position: absolute;
     right: 0;
   }
+
+  main section img:nth-child(1) {
+    right: 40px;
+  }
+
+  /* ALL PICTOS*/
 
   main section img,
   .button img {
@@ -154,5 +147,17 @@ footer {
   .button img:hover {
     opacity: 1;
     transform: scale(1.2);
+  }
+
+  /* BUTTON read all articles */
+
+  .button:nth-of-type(3) {
+    width: 20%;
+    transition: all 0.5s;
+  }
+
+  .button:nth-of-type(3):hover {
+    color: white;
+    background: #417505;
   }
 }

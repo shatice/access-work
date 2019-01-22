@@ -2,12 +2,22 @@
 
 header {
   font-family: 'Lato-Bold';
-  padding: 20px 0 10px 0;
 }
 
 header img {
   width: 32px;
   height: 32px;
+}
+
+header h1 {
+  padding: 20px 0 20px 0;
+}
+
+header h2 {
+  width: 90%;
+  margin: 0 auto;
+  border-top: solid 1px #4A4A4A;
+  padding: 20px 0 20px 0;
 }
 
 /* MAIN */
@@ -33,7 +43,15 @@ main ul li img {
 /* ARTICLE */
 
 article {
-  padding: 20px 0 40px 0;
+  margin: 0 auto;
+  padding: 0 0 40px 0;
+}
+
+h3:first-child {
+  border-top: solid 1px #4A4A4A;
+  width: 75%;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
 }
 
 /* KEEP READING */
@@ -49,10 +67,14 @@ article {
 
 /* PICTOS Like & Comment */
 
+main section {
+  border-top: solid 1px #4A4A4A;
+}
+
 main section img{
   width: 23px;
   height: 21px;
-  padding: 10px;
+  padding: 20px 10px 20px 10px;
 }
 
 /* BUTTON read all articles */
@@ -62,7 +84,7 @@ main section img{
   border: 1px solid #4A4A4A; 
   border-radius: 20px;
   padding: 10px;
-  margin: 0 auto;
+  margin: 0 auto 40px auto;
 }
 
 /* LINES boundaries*/
@@ -84,7 +106,13 @@ main section img{
 footer {
   font-family: 'Lato-Light';
   font-size: 0.75rem;
-  padding-bottom: 20px;
+  border-top: solid 1px #4A4A4A;
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer p {
+  padding: 20px;
 }
 
 
@@ -98,16 +126,22 @@ footer {
     margin: 0 auto;
   }
 
+  article {
+    width: 75%;
+  }
+
+  h3:first-child {
+    width: 100%;
+  }
+
   /* PHOTOS */
 
-  main ul {
-    width: 75%;
-    margin: 0 auto;
-  }
-  
   main ul li {
     display: inline-block;
     width: calc(100% / 3 - 5px);
+  }
+
+  main ul li:nth-child(odd) {
     opacity: 0.5;
     transition: all 0.5s;
   }
@@ -120,13 +154,12 @@ footer {
 
   main section {
     position: relative;
-    width: 75%;
     margin: 0 auto 30px auto;
   }
 
   main section img {
     position: absolute;
-    padding: 0;
+    padding-right: 0;
     right: 0;
   }
 

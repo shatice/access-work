@@ -22,10 +22,6 @@ header h2 {
 
 /* MAIN */
 
-main {
-  border-top: solid 1px #4A4A4A;
-}
-
 main p {
   text-align: justify;
   padding: 20px 40px 0 40px;
@@ -131,8 +127,6 @@ footer p {
   h3:first-child {
     width: 100%;
   }
-
-  /* ARTICLE */
 
   /* PHOTOS */
 
